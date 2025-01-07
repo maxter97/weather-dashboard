@@ -8,3 +8,4 @@ Day 1 of 30 Day DevOp Challaenge
 <li>API Key from OpenWeather: Sign up at https://home.openweathermap.org/users/sign_up to obtain a free tier API key.</li>
 <li>Cli/Termial: To use Python and any needed dependencies</li>
 <li>A Code/Text Editor: To edit any code if needed</li>
+![drawio](https://github.com/user-attachments/assets/78bf517d-11c6-44e1-8651-85bb03eed0e8)
