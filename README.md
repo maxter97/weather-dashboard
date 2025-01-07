@@ -17,6 +17,8 @@ Day 1 of 30 Day DevOp Challaenge
 <h2></h2>
 <ol>
   <li>Clone Repository using the command git clone https://github.com/maxter97/weather-dashboard.git</li>
-  <li></li>
+  <li>Cd into the the weather-dashboard directory and run the command pip install -r requirement.txt to install all dependencies needed for this project.
+  <p>* If the command does not work try</p>
+  </li>
 
 </ol>
