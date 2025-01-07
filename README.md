@@ -7,7 +7,7 @@ Day 1 of 30 Day DevOp Challaenge
 <br/>
 <h2>Prerequisites</h2> 
 <ul>
-  <li>AWS Account: To use S3 and AWS CLI</li>
+  <li>AWS Account: To use S3 and install <a href="https://aws.amazon.com/cli/">AWS CLI</a></li>
   <li>API Key from OpenWeather: Sign up at https://home.openweathermap.org/users/sign_up to obtain a free tier API key.</li>
   <li>Cli/Termial: To use Python and any needed dependencies</li>
   <li>A Code/Text Editor: To edit any code if needed</li>
@@ -19,6 +19,8 @@ Day 1 of 30 Day DevOp Challaenge
   <li>Clone Repository using the command git clone https://github.com/maxter97/weather-dashboard.git</li>
   <li>Cd into the the weather-dashboard directory and run the command pip install -r requirement.txt to install all dependencies needed for this project.
   <p>* If the command does not work try to using the <a href="https://docs.python.org/3/library/venv.html">venv</a> command or use the <a href="https://pipx.pypa.io/stable/">pipx<a/> command to creating a virtual environments to install your dependencies. </p>
-  </li>
-
+  <li>Use command <b>aws Configue</b> and add your credentials needed to access AWS resources
+  <p>* For best practice, create an IAM user with short-term credentials using IAM Identity Center and use command aws sso. (If done this way sure to still add credentials to ~/.aws/credentials. </p></li>
+  <li>Put API key and S3 bucket name in .env</li>
+  <li>Run weather_dashboard.py using Python.</li>
 </ol>
