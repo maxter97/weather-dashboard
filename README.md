@@ -1,5 +1,5 @@
-<h1>Day 1: Building a Weather Data Collection system using AWS S3 and OpenWeather API</h1>
-
+<h1>DBuilding a Weather Data Collection system using AWS S3 and OpenWeather API</h1>
+Day 1 of 30 Day DevOp Challaenge 
 <h2>Overview</h2>
 <p>This project grabs real-time weather data for multiple cities. It displays temperature (°F), humidity, and weather conditions. Then it automatically stores weather data in an AWS S3 bucket. </p>
 <br/>
