@@ -23,7 +23,7 @@ Day 1 of 30 Day DevOp Challaenge #DevOpsAllStarsChallenge
 ![Screenshot 2025-01-07 080710](https://github.com/user-attachments/assets/9a512778-d359-4f18-bf55-b5dc8ddba4f1)
   <li>Use command <b>aws Configue</b> and add your credentials needed to access AWS resources
   <p>* For best practice, create an IAM user with short-term credentials using IAM Identity Center and use command <b>aws configure sso</b>. (If yoh have done this way make sure to still add credentials to ~/.aws/credentials or use export command to add them). </p></li>
-  <li>Put API key and in a .env file</li>
+  <li>Put API key in a .env file <p>(Code has been updated to name the bucket weather-dashboard-{random_number} so no need to add bucket name unless you want your bucket a specific name)</p></li>
     
   ![Screenshot 2025-01-06 133302](https://github.com/user-attachments/assets/63ae31e7-bb49-4bac-adf9-5f7f3c97d26b)
   <li>Run weather_dashboard.py script using python </li>
