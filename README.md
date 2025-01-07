@@ -2,11 +2,13 @@
 Day 1 of 30 Day DevOp Challaenge 
 <h2>Overview</h2>
 <p>This project grabs real-time weather data for multiple cities. It displays temperature (°F), humidity, and weather conditions. Then it automatically stores weather data in an AWS S3 bucket.</p>
-![Screenshot 2025-01-07 053208](https://github.com/user-attachments/assets/793d3e54-1730-43dd-8cf4-3159281eeb7a)
+
+![Screenshot 2025-01-07 053208](https://github.com/user-attachments/assets/2dcc45dc-5888-4f44-9e31-9e186902d5b2)
 <br/>
 <h2>Prerequisites</h2> 
 <li>AWS Account: To use S3 and AWS CLI</li>
 <li>API Key from OpenWeather: Sign up at https://home.openweathermap.org/users/sign_up to obtain a free tier API key.</li>
 <li>Cli/Termial: To use Python and any needed dependencies</li>
 <li>A Code/Text Editor: To edit any code if needed</li>
+
 
