@@ -5,6 +5,7 @@ import botocore.exceptions
 import requests
 from datetime import datetime
 from dotenv import load_dotenv
+import random
 
 # Load environment variables
 load_dotenv()
@@ -12,7 +13,12 @@ load_dotenv()
 class WeatherDashboard:
     def __init__(self):
         self.api_key = os.getenv('OPENWEATHER_API_KEY')
-        self.bucket_name = os.getenv('AWS_BUCKET_NAME')
+        
+        # Generate a unique bucket name
+        random_number = random.randint(1000, 9999)
+        self.bucket_name = f"weather-dashboard-{random_number}"
+        os.environ['AWS_BUCKET_NAME'] = self.bucket_name
+        
         profile_name = os.getenv('AWS_PROFILE', 'default')
         
         try:
