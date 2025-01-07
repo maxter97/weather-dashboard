@@ -7,4 +7,4 @@ Day 1 of 30 Day DevOp Challaenge
 <li>AWS Account: To use S3 and AWS CLI</li>
 <li>API Key from OpenWeather: Sign up at https://home.openweathermap.org/users/sign_up to obtain a free tier API key.</li>
 <li>Cli/Termial: To use Python and any needed dependencies</li>
-<li>A Code Editor: To edit any code if needed</li>
+<li>A Code/Text Editor: To edit any code if needed</li>
