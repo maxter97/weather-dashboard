@@ -17,13 +17,22 @@ Day 1 of 30 Day DevOp Challaenge
 <h2></h2>
 <ol>
   <li>Clone Repository using the command git clone https://github.com/maxter97/weather-dashboard.git</li>
-  <li>Cd into the the weather-dashboard directory and run the command pip install -r requirement.txt to install all dependencies needed for this project.
+  <li>Cd into the the weather-dashboard directory and run the command pip install -r requirements.txt to install all dependencies needed for this project.
   <p>* If the command does not work try to using the <a href="https://docs.python.org/3/library/venv.html">venv</a> command or use the <a href="https://pipx.pypa.io/stable/">pipx<a/> command to creating a virtual environments to install your dependencies. </p>
+      
+![Screenshot 2025-01-07 080710](https://github.com/user-attachments/assets/9a512778-d359-4f18-bf55-b5dc8ddba4f1)
   <li>Use command <b>aws Configue</b> and add your credentials needed to access AWS resources
-  <p>* For best practice, create an IAM user with short-term credentials using IAM Identity Center and use command aws configure sso. (If done this way make sure to still add credentials to ~/.aws/credentials). </p></li>
+  <p>* For best practice, create an IAM user with short-term credentials using IAM Identity Center and use command aws configure sso. (If done this way make sure to still add credentials to ~/.aws/credentials or use export command to add them). </p></li>
   <li>Put API key and in a .env file</li>
+    
+  ![Screenshot 2025-01-06 133302](https://github.com/user-attachments/assets/63ae31e7-bb49-4bac-adf9-5f7f3c97d26b)
   <li>Run weather_dashboard.py using Python. </li>
    
   ![Screenshot 2025-01-07 073716](https://github.com/user-attachments/assets/7c2dc2d5-3d34-4c79-b451-1ecf885f8e5a)
+  <li>Now Your data should be in your newly created S3 Bucket</li>
 
 </ol>
+
+![Screenshot 2025-01-06 152752](https://github.com/user-attachments/assets/8a017f43-4e4f-4ae2-99f6-24cef9308fb3)
+![Screenshot 2025-01-06 152802](https://github.com/user-attachments/assets/f7b727bf-0a41-448b-9310-368d6268314e)
+![Screenshot 2025-01-06 152814](https://github.com/user-attachments/assets/0621dffc-dc42-4d73-b13d-2399beb5e6d7)
