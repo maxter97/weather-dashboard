@@ -12,4 +12,4 @@ Day 1 of 30 Day DevOp Challaenge
 <li>A Code/Text Editor: To edit any code if needed</li>
 <br/>
 <h2></h2>
-<ol>Clone repository</ol>
+<lo>Clone repository</lo>
