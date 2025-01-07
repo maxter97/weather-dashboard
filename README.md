@@ -20,7 +20,10 @@ Day 1 of 30 Day DevOp Challaenge
   <li>Cd into the the weather-dashboard directory and run the command pip install -r requirement.txt to install all dependencies needed for this project.
   <p>* If the command does not work try to using the <a href="https://docs.python.org/3/library/venv.html">venv</a> command or use the <a href="https://pipx.pypa.io/stable/">pipx<a/> command to creating a virtual environments to install your dependencies. </p>
   <li>Use command <b>aws Configue</b> and add your credentials needed to access AWS resources
-  <p>* For best practice, create an IAM user with short-term credentials using IAM Identity Center and use command aws configure sso. (If done this way sure to still add credentials to ~/.aws/credentials). </p></li>
+  <p>* For best practice, create an IAM user with short-term credentials using IAM Identity Center and use command aws configure sso. (If done this way make sure to still add credentials to ~/.aws/credentials). </p></li>
   <li>Put API key and in a .env file</li>
-  <li>Run weather_dashboard.py using Python. It will </li>
+  <li>Run weather_dashboard.py using Python. </li>
+   
+  ![Screenshot 2025-01-07 073716](https://github.com/user-attachments/assets/7c2dc2d5-3d34-4c79-b451-1ecf885f8e5a)
+
 </ol>
