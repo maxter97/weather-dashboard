@@ -15,8 +15,8 @@ Day 1 of 30 Day DevOp Challaenge
 
 <br/>
 <h2></h2>
-<lo>
-  <li>Clone Repository</li>
+<ol>
+  <li>Clone Repository using the command git clone https://github.com/maxter97/weather-dashboard.git</li>
+  <li></li>
 
-
-</lo>
+</ol>
