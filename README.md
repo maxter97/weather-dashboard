@@ -1,8 +1,8 @@
+![Screenshot 2025-01-07 053208](https://github.com/user-attachments/assets/7379f683-08d2-4421-9dfd-86c5e6e9cfbc)
 <h1>DBuilding a Weather Data Collection system using AWS S3 and OpenWeather API</h1>
 Day 1 of 30 Day DevOp Challaenge 
 <h2>Overview</h2>
 <p>This project grabs real-time weather data for multiple cities. It displays temperature (°F), humidity, and weather conditions. Then it automatically stores weather data in an AWS S3 bucket.</p>
-<img src="drawio.png" alt="Diagram">
 <br/>
 <h2>Prerequisites</h2> 
 <li>AWS Account: To use S3 and AWS CLI</li>
