@@ -18,7 +18,7 @@ Day 1 of 30 Day DevOp Challaenge
 <ol>
   <li>Clone Repository using the command git clone https://github.com/maxter97/weather-dashboard.git</li>
   <li>Cd into the the weather-dashboard directory and run the command pip install -r requirement.txt to install all dependencies needed for this project.
-  <p>* If the command does not work try creating a virutal enverimetn using  <a href="[https://www.w3schools.com/](https://docs.python.org/3/library/venv.html)">venv</a> command or install and use the pipx command. </p>
+  <p>* If the command does not work try creating a virutal enverimetn using  <a href="https://docs.python.org/3/library/venv.html">venv</a> command or install and use the pipx command. </p>
   </li>
 
 </ol>
