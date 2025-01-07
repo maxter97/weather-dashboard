@@ -1,6 +1,7 @@
 import os
 import json
 import boto3
+import botocore.exceptions 
 import requests
 from datetime import datetime
 from dotenv import load_dotenv
@@ -12,7 +13,16 @@ class WeatherDashboard:
     def __init__(self):
         self.api_key = os.getenv('OPENWEATHER_API_KEY')
         self.bucket_name = os.getenv('AWS_BUCKET_NAME')
-        self.s3_client = boto3.client('s3')
+        profile_name = os.getenv('AWS_PROFILE', 'default')
+        
+        try:
+            self.session = boto3.Session(profile_name=profile_name)
+            print(f"Using AWS profile: {profile_name}")
+        except botocore.exceptions.ProfileNotFound as e:
+            print(f"Profile not found: {e}")
+            raise
+        
+        self.s3_client = boto3.client('s3')  # Initialize s3_client
 
     def create_bucket_if_not_exists(self):
         """Create S3 bucket if it doesn't exist"""
