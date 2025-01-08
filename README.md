@@ -7,7 +7,7 @@ Project 1 for DevOp Challenge #DevOpsAllStarsChallenge
 <br/>
 <h2>Prerequisites</h2> 
 <ul>
-  <li>Common knowldge of AWS and Python</li>
+  <li>Familiar with AWS and Python</li>
   <li>AWS Account: To use S3 and install <a href="https://aws.amazon.com/cli/">AWS CLI</a></li>
   <li>API Key from OpenWeather: Sign up at https://home.openweathermap.org/users/sign_up to obtain a free tier API key.</li>
   <li>A Code/Text Editor: To edit any code if needed</li>
@@ -32,10 +32,12 @@ pip install -r requirements.txt
 ![Screenshot 2025-01-07 080710](https://github.com/user-attachments/assets/9a512778-d359-4f18-bf55-b5dc8ddba4f1)
   <li>Use command <b>aws Configue</b> and add your credentials needed to access AWS resources
   <p>* For best practice, create an IAM user with short-term credentials using IAM Identity Center and use command <b>aws configure sso</b>. (If yoh have done this way make sure to still add credentials to ~/.aws/credentials or use export command to add them). </p></li>
-  <li>Put API key in a .env file <p>(Code has been updated to name the bucket weather-dashboard-{random_number} so no need to add bucket name unless you want your bucket a specific name)</p></li>
+  <li>Create a a .env file and put your OpenWeather API key into it  <p>(Code has been updated to name the bucket weather-dashboard-{random_number} so no need to add bucket name unless you want your bucket a specific name and/or already created a bucket)</p></li>
     
   ![Screenshot 2025-01-06 133302](https://github.com/user-attachments/assets/63ae31e7-bb49-4bac-adf9-5f7f3c97d26b)
-  <li>Run weather_dashboard.py script using python </li>
+  <li>Run (Python command vary depending on version and OS)
+
+    python3 weather_dashboard.py script </li>
    
   ![Screenshot 2025-01-07 073716](https://github.com/user-attachments/assets/7c2dc2d5-3d34-4c79-b451-1ecf885f8e5a)
   <li>Now Your data should be in your newly created S3 Bucket</li>
@@ -49,7 +51,7 @@ pip install -r requirements.txt
 <h2>Future Enhancements</h2>
 <ul>
   <li>Input different cites</li>
-  <li>Set up CI/CD pipeline</li>
+  <li>Be able to create a weather dashboard with data</li>
   <li>Automate and run in a virtul environment</li>
   
 </ul>
