@@ -7,9 +7,9 @@ Project 1 for DevOp Challenge #DevOpsAllStarsChallenge
 <br/>
 <h2>Prerequisites</h2> 
 <ul>
+  <li>Common knowldge of AWS and Python</li>
   <li>AWS Account: To use S3 and install <a href="https://aws.amazon.com/cli/">AWS CLI</a></li>
   <li>API Key from OpenWeather: Sign up at https://home.openweathermap.org/users/sign_up to obtain a free tier API key.</li>
-  <li>Cli/Termial: To use Python and any needed dependencies</li>
   <li>A Code/Text Editor: To edit any code if needed</li>
 </ul>
 
