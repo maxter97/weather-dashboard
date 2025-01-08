@@ -43,7 +43,7 @@ aws configure sso
   
 5. Run (Python command vary depending on version and OS)
 ```bash
-python3 weather_dashboard.py script 
+python3 location/of/weather_dashboard.py 
 ```  
   ![Screenshot 2025-01-07 073716](https://github.com/user-attachments/assets/7c2dc2d5-3d34-4c79-b451-1ecf885f8e5a)
   
