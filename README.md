@@ -30,14 +30,21 @@ pip install -r requirements.txt
   <p>* If the command does not work try to using the <a href="https://docs.python.org/3/library/venv.html">venv</a> command or use the <a href="https://pipx.pypa.io/stable/">pipx<a/> command to creating a virtual environments to install your dependencies. </p>
       
 ![Screenshot 2025-01-07 080710](https://github.com/user-attachments/assets/9a512778-d359-4f18-bf55-b5dc8ddba4f1)
-  <li>Use command <b>aws Configue</b> and add your credentials needed to access AWS resources
-  <p>* For best practice, create an IAM user with short-term credentials using IAM Identity Center and use command <b>aws configure sso</b>. (If yoh have done this way make sure to still add credentials to ~/.aws/credentials or use export command to add them). </p></li>
+  <li>Add your credentials needed to access AWS resources using
+       
+    aws Configue  
+  
+  <p>* For best practice, create an IAM user with short-term credentials using IAM Identity Center. If done this way make sure to still add credentials to ~/.aws/credentials or use export command to add them. Use this command. Use this command if done this way. </p></li>
+
+    aws configure sso
+  
+  
   <li>Create a a .env file and put your OpenWeather API key into it  <p>(Code has been updated to name the bucket weather-dashboard-{random_number} so no need to add bucket name unless you want your bucket a specific name and/or already created a bucket)</p></li>
     
   ![Screenshot 2025-01-06 133302](https://github.com/user-attachments/assets/63ae31e7-bb49-4bac-adf9-5f7f3c97d26b)
   <li>Run (Python command vary depending on version and OS)
 
-    python3 weather_dashboard.py script </li>
+    python3 weather_dashboard.py script 
    
   ![Screenshot 2025-01-07 073716](https://github.com/user-attachments/assets/7c2dc2d5-3d34-4c79-b451-1ecf885f8e5a)
   <li>Now Your data should be in your newly created S3 Bucket</li>
