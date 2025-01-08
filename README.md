@@ -16,8 +16,17 @@ Project 1 for DevOp Challenge #DevOpsAllStarsChallenge
 <br/>
 <h2>Instructions</h2>
 <ol>
-  <li>Clone Repository using the command <b>git clone</b> https://github.com/maxter97/weather-dashboard.git</li>
-  <li>Move to weather-dashboard directory using <b>Cd</b> and run the command <b>pip install -r requirements.txt</b> to install all dependencies needed for this project.
+  <li>Clone Repository using the command  
+    
+```
+git clone  https://github.com/maxter97/weather-dashboard.git</li>
+```
+  <li>Move to where the weather-dashboard directory is stored. Then install all dependencies needed for this project using
+
+```
+pip install -r requirements.txt
+```
+ 
   <p>* If the command does not work try to using the <a href="https://docs.python.org/3/library/venv.html">venv</a> command or use the <a href="https://pipx.pypa.io/stable/">pipx<a/> command to creating a virtual environments to install your dependencies. </p>
       
 ![Screenshot 2025-01-07 080710](https://github.com/user-attachments/assets/9a512778-d359-4f18-bf55-b5dc8ddba4f1)
