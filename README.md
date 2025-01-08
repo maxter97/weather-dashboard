@@ -19,7 +19,7 @@ Project 1 for DevOp Challenge #DevOpsAllStarsChallenge
   <li>Clone Repository using the command  
     
 ```
-git clone  https://github.com/maxter97/weather-dashboard.git</li>
+git clone  https://github.com/maxter97/weather-dashboard.git
 ```
   <li>Move to where the weather-dashboard directory is stored. Then install all dependencies needed for this project using
 
