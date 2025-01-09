@@ -51,13 +51,14 @@ python3 location/of/weather_dashboard.py
 
 6. Now Your data should be in your newly created S3 Bucket
    
+![Screenshot 2025-01-08 222658](https://github.com/user-attachments/assets/62ec7274-279b-4371-845c-2e92a14d30db)
+![Screenshot 2025-01-08 222708](https://github.com/user-attachments/assets/c0385480-e5ca-4280-91da-9a98787f6d3c)
+![Screenshot 2025-01-08 222715](https://github.com/user-attachments/assets/045f37a7-6386-439e-a306-082bc559dc2c)
 
-![Screenshot 2025-01-06 152752](https://github.com/user-attachments/assets/8a017f43-4e4f-4ae2-99f6-24cef9308fb3)
-![Screenshot 2025-01-06 152802](https://github.com/user-attachments/assets/f7b727bf-0a41-448b-9310-368d6268314e)
-![Screenshot 2025-01-06 152814](https://github.com/user-attachments/assets/0621dffc-dc42-4d73-b13d-2399beb5e6d7)
 
 # Future Enhancements
 1. Input different cite
+
 2. Be able to create a weather dashboard with data
 3. Automate and run in a virtul environment
   
