@@ -60,4 +60,3 @@ python3 location/of/weather_dashboard.py
 2. Be able to create a weather dashboard with data
 3. Automate and run in a virtul environment
   
-
