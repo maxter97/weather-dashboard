@@ -8,9 +8,9 @@ This project grabs real-time weather data for multiple cities. It displays tempe
 # Prerequisites
 1. Familiar with AWS and Python
 2. AWS Account: To use S3 and install <a href="https://aws.amazon.com/cli/">AWS CLI</a> 
-3. API Key from OpenWeather: Sign up at https://home.openweathermap.org/users/sign_up to obtain a free tier API key.</li>
-4. A Code/Text Editor: To edit any code if needed</li>
-
+3. API Key from OpenWeather: Sign up at https://home.openweathermap.org/users/sign_up to obtain a free tier API key.
+4. A Code/Text Editor: To edit any code if needed
+5. IDE (ex. VS Code)
 # Instructions
 
 1. Clone Repository using the command  
