@@ -37,16 +37,17 @@ aws Configue
 aws configure sso
 ``` 
   
-4. Create a a .env file and put your OpenWeather API key into it  <p>(Code has been updated to name the bucket weather-dashboard-{random_number} so no need to add bucket name unless you want your bucket a specific name and/or already created a bucket)
+4. Create a a .env file and put your OpenWeather API key and bucket name into it (If you do not have a bucket name entered the code will create a new s3 bucket named weather-dashboard- with a random 4 digit number at the end)
     
   ![Screenshot 2025-01-06 133302](https://github.com/user-attachments/assets/63ae31e7-bb49-4bac-adf9-5f7f3c97d26b)
   
 5. Run (Python command vary depending on version and OS)
+   Update: You can now enter the cites you want to collect data on.
 ```bash
 python3 location/of/weather_dashboard.py 
 ```  
-  ![Screenshot 2025-01-07 073716](https://github.com/user-attachments/assets/7c2dc2d5-3d34-4c79-b451-1ecf885f8e5a)
-  
+
+![Screenshot 2025-01-08 221937](https://github.com/user-attachments/assets/0f133c35-0e65-49d0-83d0-01da6a9e24fd)
 
 6. Now Your data should be in your newly created S3 Bucket
    
