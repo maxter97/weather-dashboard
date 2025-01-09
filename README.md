@@ -57,7 +57,6 @@ python3 location/of/weather_dashboard.py
 
 
 # Future Enhancements
-1. Input different cite
-2. Be able to create a weather dashboard with data
-3. Automate and run in a virtul environment
+1. Be able to create a weather dashboard with data
+2. Automate and run in a virtul environment
   
