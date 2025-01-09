@@ -104,7 +104,9 @@ def main():
     # Create bucket if needed
     dashboard.create_bucket_if_not_exists()
     
-    cities = ["Philadelphia", "Seattle", "New York"]
+    # Prompt user for cities
+    cities_input = input("Enter the cities you want to fetch weather data for, separated by commas: ")
+    cities = [city.strip() for city in cities_input.split(",")]
     
     for city in cities:
         print(f"\nFetching weather for {city}...")
