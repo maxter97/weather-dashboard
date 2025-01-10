@@ -44,7 +44,7 @@ aws configure sso
 5. Run (Python command vary depending on version and OS)
    Update: You can now enter the cites you want to collect data on.
 ```bash
-python3 location/of/weather_dashboard.py 
+python3 weather_dashboard.py script 
 ```  
 
 ![Screenshot 2025-01-08 221937](https://github.com/user-attachments/assets/0f133c35-0e65-49d0-83d0-01da6a9e24fd)
@@ -57,6 +57,8 @@ python3 location/of/weather_dashboard.py
 
 
 # Future Enhancements
-1. Be able to create a weather dashboard with data
-2. Automate and run in a virtul environment
+1. Input different cite
+2. Be able to create a weather dashboard with data
+3. Automate and run in a virtul environment
   
+
