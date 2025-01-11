@@ -3,7 +3,7 @@ Project 1 for DevOp Challenge #DevOpsAllStarsChallenge
 # Overview
 This project grabs real-time weather data for multiple citiesv using a weather API. It collects temperature (°F), humidity, and weather conditions. Stores it automatically stores weather data in an AWS S3 bucket. Then is Virtualized into a dashboard with streamlit.
 
-![Screenshot 2025-01-07 053208](https://github.com/user-attachments/assets/2dcc45dc-5888-4f44-9e31-9e186902d5b2)
+![Screenshot 2025-01-11 100615](https://github.com/user-attachments/assets/042627cf-1900-4968-bd0d-cff2c46f9ce0)
 
 # Prerequisites
 1. Familiar with AWS and Python
