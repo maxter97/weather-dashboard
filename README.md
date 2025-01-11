@@ -1,4 +1,5 @@
-# Building a Weather Data Collection system using AWS S3 and OpenWeather API
+# Building a Weather Data Collection system and Dashboard
+Using AWS S3, OpenWeather API and Streamlit
 Project 1 for DevOp Challenge #DevOpsAllStarsChallenge
 # Overview
 This project grabs real-time weather data for multiple cities. It displays temperature (°F), humidity, and weather conditions. Then it automatically stores weather data in an AWS S3 bucket.
