@@ -62,19 +62,23 @@ class WeatherDashboard:
 
     def update_env_file(self, bucket_name):
         """Update the .env file with the new bucket name"""
-        with open('.env', 'r') as file:
-            lines = file.readlines()
-        
-        with open('.env', 'w') as file:
-            for line in lines:
-                if line.startswith('AWS_BUCKET_NAME='):
-                    file.write(f'AWS_BUCKET_NAME={bucket_name}\n')
-                else:
-                    file.write(line)
+        if not os.path.exists('.env'):
+            with open('.env', 'w') as file:
+                file.write(f'AWS_BUCKET_NAME={bucket_name}\n')
+        else:
+            with open('.env', 'r') as file:
+                lines = file.readlines()
+            
+            with open('.env', 'w') as file:
+                for line in lines:
+                    if line.startswith('AWS_BUCKET_NAME='):
+                        file.write(f'AWS_BUCKET_NAME={bucket_name}\n')
+                    else:
+                        file.write(line)
 
     def fetch_weather(self, city):
-        """Fetch weather data from OpenWeather API"""
-        base_url = "http://api.openweathermap.org/data/2.5/weather"
+        """Fetch 5-day/3-hour forecast data from OpenWeather API"""
+        base_url = "http://api.openweathermap.org/data/2.5/forecast"
         params = {
             "q": city,
             "appid": self.api_key,
@@ -125,17 +129,6 @@ def main():
         print(f"\nFetching weather for {city}...")
         weather_data = dashboard.fetch_weather(city)
         if weather_data:
-            temp = weather_data['main']['temp']
-            feels_like = weather_data['main']['feels_like']
-            humidity = weather_data['main']['humidity']
-            description = weather_data['weather'][0]['description']
-            
-            print(f"Temperature: {temp}°F")
-            print(f"Feels like: {feels_like}°F")
-            print(f"Humidity: {humidity}%")
-            print(f"Conditions: {description}")
-            
-            # Save to S3
             success = dashboard.save_to_s3(weather_data, city)
             if success:
                 print(f"Weather data for {city} saved to S3!")
