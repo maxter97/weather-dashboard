@@ -122,6 +122,12 @@ We can create a dashboard that will visualize our data insde the S3 bucket.
    
 ![Screenshot 2025-01-11 080944](https://github.com/user-attachments/assets/37af07ce-bf8c-436f-ba72-73d0c5aa47ab)
 
+# What I have learned 
+- Using Python script to featch and transform data
+- How to secure key values when running scripts and using AWS
+- Using AWS services, IAM user and roles
+- Create a user interface and make changes to it with streamlit
+
 
 # Future Enhancements
 1. Automate and run in a virtul environment
