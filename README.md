@@ -127,6 +127,7 @@ We can create a dashboard that will visualize our data insde the S3 bucket.
 - How to secure key values when running scripts and using AWS
 - Using AWS services, IAM user and roles
 - Create a user interface and make changes to it with streamlit
+- Getting familiar with the AWS CLI
 
 
 # Future Enhancements
