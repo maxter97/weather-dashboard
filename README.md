@@ -11,14 +11,15 @@ This project grabs real-time weather data for multiple citiesv using a weather A
 3. API Key from OpenWeather: Sign up at https://home.openweathermap.org/users/sign_up to obtain a free tier API key.
 4. A Code/Text Editor: To edit any code if needed
 5. IDE (ex. VS Code)
+   
 # Instructions
 
-1. Clone Repository using the command  
+## 1. Clone Repository using the command  
     
 ```bash
 git clone  https://github.com/maxter97/weather-dashboard.git
 ```
-2. Move to where the weather-dashboard directory is stored. Then install all dependencies needed for this project using
+## 2. Move to where the weather-dashboard directory is stored. Then install all dependencies needed for this project using
 
 ```bash
 pip install -r requirements.txt
@@ -28,7 +29,7 @@ pip install -r requirements.txt
       
 ![Screenshot 2025-01-07 080710](https://github.com/user-attachments/assets/9a512778-d359-4f18-bf55-b5dc8ddba4f1)
 
-3. Add your credentials needed to access AWS resources using
+## 3. Add your credentials needed to access AWS resources using
 ```bash
 aws Configue
 ```
@@ -37,11 +38,11 @@ aws Configue
 aws configure sso
 ``` 
   
-4. Create a a .env file and put your OpenWeather API key and bucket name into it (If you do not have a bucket name entered the code will create a new s3 bucket named weather-dashboard- with a random 4 digit number at the end)
+## 4. Create a a .env file and put your OpenWeather API key and bucket name into it (If you do not have a bucket name entered the code will create a new s3 bucket named weather-dashboard- with a random 4 digit number at the end)
     
   ![Screenshot 2025-01-06 133302](https://github.com/user-attachments/assets/63ae31e7-bb49-4bac-adf9-5f7f3c97d26b)
   
-5. Run (Python command vary depending on version and OS)
+## 5. Run (Python command vary depending on version and OS)
    Update: You can now enter the cites you want to collect data on.
 ```bash
 python3 weather_dashboard.py script 
@@ -49,7 +50,7 @@ python3 weather_dashboard.py script
 
 ![Screenshot 2025-01-08 221937](https://github.com/user-attachments/assets/0f133c35-0e65-49d0-83d0-01da6a9e24fd)
 
-6. Now Your data should be in your newly created S3 Bucket
+## 6. Now Your data should be in your newly created S3 Bucket
    
 ![Screenshot 2025-01-08 222658](https://github.com/user-attachments/assets/62ec7274-279b-4371-845c-2e92a14d30db)
 ![Screenshot 2025-01-08 222708](https://github.com/user-attachments/assets/c0385480-e5ca-4280-91da-9a98787f6d3c)
@@ -58,7 +59,7 @@ python3 weather_dashboard.py script
 # Creating Dashboard
 We can create a dashboard that will visualize our data insde the S3 bucket.
 
-1. Install the following dependencies
+## 1. Install the following dependencies
    ```bash
    pip install streamlit
    pip install pytz
@@ -68,12 +69,12 @@ We can create a dashboard that will visualize our data insde the S3 bucket.
    ```
    * They have been added to the requirements.txt file
      
-2. Create a new Python script to create dashboard and pull data from S3 
+## 2. Create a new Python script to create dashboard and pull data from S3 
    ```bash
    touch streamlit_dashboard.py
    ```
     *The script I used is included in the repository
-4. Copy this code into the newly created file. Edit to personalize to your preference
+## 3. Copy this code into the newly created file. Edit to personalize to your preference
 ```bash
     import streamlit as st
     import boto3
@@ -110,15 +111,15 @@ We can create a dashboard that will visualize our data insde the S3 bucket.
     if __name__ == "__main__":
         main()
 ```
-5. Run this command to launch your dashboard
-   ```bash
+## 4. Run this command to launch your dashboard
+```bash
    streamlit run streamlit_dashboard.py
-    ```
+```
     Once you run it you will get a local URL and a network URL to access your dashboard
    
     ![Screenshot 2025-01-11 081023](https://github.com/user-attachments/assets/31c4ffe0-07ce-4cf5-a6dd-d7a1ba2d3a1e)
 
-7. Here is how my dashboard looks with some edits to streamlit_dashboard.py
+## 5. Here is how my dashboard looks with some edits to streamlit_dashboard.py
    
 ![Screenshot 2025-01-11 080944](https://github.com/user-attachments/assets/37af07ce-bf8c-436f-ba72-73d0c5aa47ab)
 
