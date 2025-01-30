@@ -115,9 +115,9 @@ We can create a dashboard that will visualize our data insde the S3 bucket.
 ```bash
    streamlit run streamlit_dashboard.py
 ```
-    Once you run it you will get a local URL and a network URL to access your dashboard
+Once you run it you will get a local URL and a network URL to access your dashboard
    
-    ![Screenshot 2025-01-11 081023](https://github.com/user-attachments/assets/31c4ffe0-07ce-4cf5-a6dd-d7a1ba2d3a1e)
+![Screenshot 2025-01-11 081023](https://github.com/user-attachments/assets/31c4ffe0-07ce-4cf5-a6dd-d7a1ba2d3a1e)
 
 ## 5. Here is how my dashboard looks with some edits to streamlit_dashboard.py
    
