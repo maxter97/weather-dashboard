@@ -45,7 +45,7 @@ aws configure sso
 ## 5. Run (Python command vary depending on version and OS)
    Update: You can now enter the cites you want to collect data on.
 ```bash
-python3 weather_dashboard.py script 
+python3 weather_dashboard.py 
 ```  
 
 ![Screenshot 2025-01-08 221937](https://github.com/user-attachments/assets/0f133c35-0e65-49d0-83d0-01da6a9e24fd)
