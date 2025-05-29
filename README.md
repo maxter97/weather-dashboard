@@ -1,7 +1,7 @@
 # Building a Weather Data Collection system and Dashboard
 Project 1 for DevOp Challenge #DevOpsAllStarsChallenge
 # Overview
-This project grabs real-time weather data for multiple citiesv using a weather API. It collects temperature (°F), humidity, and weather conditions. Stores it automatically stores weather data in an AWS S3 bucket. Then is Virtualized into a dashboard with streamlit.
+This project grabs real-time weather data for multiple cities using a weather API. It collects temperature (°F), humidity, and weather conditions. Stores it automatically stores weather data in an AWS S3 bucket. Then is Virtualized into a dashboard with streamlit.
 
 ![Screenshot 2025-01-11 100615](https://github.com/user-attachments/assets/042627cf-1900-4968-bd0d-cff2c46f9ce0)
 
